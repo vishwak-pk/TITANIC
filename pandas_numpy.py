@@ -18,7 +18,13 @@ print(zero_arr)
 arr_arrange = np.arange(6,10)
 print(arr_arrange)
 
-!pip install pandas
+import numpy as np
 
-"""git init"""
+arr = np.array([1])
+print(arr)
+zero_arr = np.zeros(4)
+print(zero_arr)
+arr_arrange = np.arange(6,10)
+print(arr_arrange)
+
 
