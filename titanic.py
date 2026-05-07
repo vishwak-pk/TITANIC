@@ -11,3 +11,4 @@ import pandas as pd
 
 df = pd.read_csv("/content/sample_data/Titanic_train.csv")
 df.head()
+df.describe()
