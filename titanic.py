@@ -12,3 +12,10 @@ import pandas as pd
 df = pd.read_csv("/content/sample_data/Titanic_train.csv")
 df.head()
 df.describe()
+df = pd.read_csv("/content/sample_data/Titanic_train.csv")
+df.shape
+df.dtypes
+df.isnull()
+df.isnull().sum()
+df.notnull().sum()
+df.info()
